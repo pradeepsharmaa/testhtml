@@ -35,7 +35,7 @@ $animation-type: ease;
         transform: uppercase;
     }
     &.plum {
-        background: $plum;
+        background: $blue;
     }
     &.white {
         background: $white;
@@ -51,7 +51,7 @@ $animation-type: ease;
         }
     }
     &.disabled {
-        background: $disabled-btn;
+        background: $gray;
         pointer-events: none;
         cursor: default;
     }
@@ -72,8 +72,8 @@ $animation-type: ease;
         }
         &.disabled {
             background: transparent;
-            border: solid 2px $disabled-btn;
-            color: $disabled-btn;
+            border: solid 2px $gray;
+            color: $gray;
             pointer-events: none;
             cursor: default;
         }
